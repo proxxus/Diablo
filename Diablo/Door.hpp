@@ -3,7 +3,7 @@
 class Door
 {
 public:
-	Door(int someLinkedRooms[2]);
+	Door();
 	~Door();
 private:
 };
