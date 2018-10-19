@@ -2,7 +2,10 @@
 
 class Item
 {
-
+public:
+	Item();
+	~Item();
+private:
 };
 
 class ChestItem

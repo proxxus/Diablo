@@ -5,8 +5,7 @@ class Enemy
 {
 public:
 	Enemy();
-	~Enemy() = delete;
-
+	~Enemy();
 
 private:
 	int myHealth;

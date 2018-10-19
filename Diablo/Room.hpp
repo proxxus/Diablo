@@ -7,13 +7,18 @@
 class Room
 {
 public:
-#pragma region Getters
-	
+	Room(int anEnemyCount, int aDoorCount, int anItemCount);
 	~Room();
 
+#pragma region Getters and Setters
+	std::vector<Enemy> GetEnemies();
+	std::vector<Item> GetItems();
+	std::vector<Door> GetDoors();
+#pragma endregion
 
 private:
 	std::vector<Enemy> myEnemies;
 	std::vector<Item> myItems;
-	std::vector<Door>
+	//std::vector<int> myDoors;
+	int myLinkedDoor;
 };
