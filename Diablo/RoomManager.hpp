@@ -5,9 +5,12 @@
 class RoomManager
 {
 public:
+	RoomManager();
 	void AddRoom();
-	void LinkRooms(Room& aFirstRoom, Room& aSecondRoom);
+	int LinkRooms(int aFirstRoomIndex, int aSecondRoomIndex);
+
 private:
+	int myCurrentRoom;
 	std::vector<Room> myRooms;
 	std::vector<Door> myDoors;
 };

@@ -1,6 +1,17 @@
+#include "stdafx.h"
 #include "RoomManager.hpp"
 
-void RoomManager::LinkRooms(Room & aFirstRoom, Room & aSecondRoom)
+RoomManager::RoomManager()
+:myCurrentRoom(0)
 {
-	myDoors.push_back();
+}
+
+void RoomManager::AddRoom()
+{
+
+}
+
+int RoomManager::LinkRooms(int aFirstRoomIndex, int aSecondRoomIndex)
+{
+	myDoors.push_back(Door(aFirstRoomIndex, aSecondRoomIndex));
 }
