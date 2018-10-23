@@ -1,5 +1,5 @@
-﻿  Avatar.cpp
-  Enemy.cpp
-  Item.cpp
+﻿  Door.cpp
+  Room.cpp
+  RoomManager.cpp
   Generating Code...
-  Diablo.vcxproj -> C:\Users\elias.oh\source\repos\Diablo\Debug\Diablo.exe
+  Diablo.vcxproj -> C:\Users\Madeleine\Documents\EllyDiablo\Diablo\Debug\Diablo.exe

@@ -3,12 +3,12 @@
 
 Room::Room(int anEnemyCount, int anItemCount)
 {
-	for (size_t index = 0; index < anEnemyCount; index++)
+	for (int index = 0; index < anEnemyCount; index++)
 	{
 		myEnemies.push_back(Enemy());
 	}
 
-	for (size_t index = 0; index < anItemCount; index++)
+	for (int index = 0; index < anItemCount; index++)
 	{
 		myItems.push_back(Item());
 	}

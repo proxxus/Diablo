@@ -8,7 +8,7 @@ class Room
 {
 public:
 	Room(int anEnemyCount, int anItemCount);
-	~Room();
+	~Room() = default;
 
 	void AddDoor(int anIndex);
 

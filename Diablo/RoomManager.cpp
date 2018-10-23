@@ -14,4 +14,5 @@ void RoomManager::AddRoom()
 int RoomManager::LinkRooms(int aFirstRoomIndex, int aSecondRoomIndex)
 {
 	myDoors.push_back(Door(aFirstRoomIndex, aSecondRoomIndex));
+	return myDoors.size() - 1;
 }

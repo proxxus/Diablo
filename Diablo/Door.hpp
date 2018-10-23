@@ -4,7 +4,7 @@ class Door
 {
 public:
     Door(int aFirstRoom, int aSecondRoom);
-	~Door();
+	~Door() = default;
 private:
 	int myFirstRoomIndex;
 	int mySecondRoomIndex;

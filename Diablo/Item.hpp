@@ -3,8 +3,8 @@
 class Item
 {
 public:
-	Item();
-	~Item();
+	Item() = default;
+	~Item() = default;
 private:
 };
 
